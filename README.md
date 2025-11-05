@@ -1,65 +1,43 @@
 <div align="center">
-  <img width="820" height="214" alt="image" src="https://github.com/user-attachments/assets/bf834e9f-f56c-4fef-8ec1-f221c96cf020" />
+  <img width="820" height="214" alt="Credit Card Fraud Detection" src="https://github.com/user-attachments/assets/bf834e9f-f56c-4fef-8ec1-f221c96cf020" />
+</div>
 
-  <h2> Medical Insurance Charge Prediction </h2>  
-  <p> A KNIME-based project for predicting healthcare insurance costs using regression and clustering models </p>  
-</div>  
-
----
-
-## 🧩 About KNIME  
-
-[KNIME](https://www.knime.com/) (Konstanz Information Miner) is an **open-source data analytics platform** that allows users to build workflows for data preprocessing, visualization, and machine learning without heavy coding.  
-
-It provides a **drag-and-drop interface** to connect different nodes for tasks like:  
-- Data cleaning  
-- Exploratory analysis  
-- Machine learning modeling  
-- Predictive analytics  
+<h1 align="center">💳 Credit Card Fraud Detection using KNIME</h1>
 
 ---
 
-## 📊 Project Overview  
+## 📘 Overview
 
-In this project, I have used **KNIME** to perform **predictive analysis of medical insurance charges**.  
+Credit card fraud is one of the most significant concerns in the financial industry.  
+This project leverages **machine learning** techniques implemented on the **KNIME Analytics Platform** to detect fraudulent credit card transactions.
 
-The workflow includes:  
-- 📥 Importing and preprocessing healthcare data  
-- 🔍 Exploring features such as **age, BMI, smoking status, and region**  
-- 🤖 Applying **machine learning models** (regression) to predict insurance charges  
-- 📈 Visualizing important relationships between features and charges  
+The main objective is to:
+- Identify the **most accurate classifier**.
+- Handle the **imbalance in dataset classes** effectively.
+- Evaluate models based on **accuracy**, **recall**, **precision**, **AUC**, and **computational cost**.
 
-🎯 **Objective:** To **understand the factors influencing medical insurance costs** and build a reliable predictive model.  
-
----
-
-## 🎯 Objectives  
-
-- Predict insurance charges using regression models  
-- Quantify the impact of smoking on medical costs  
-- Identify clusters of policyholders with similar risk profiles  
-- Investigate the combined effect of **high BMI** and **smoking**  
+🔗 **Try the Workflow on KNIME Hub:**  
+[👉 Credit Card Fraud Detection Workflow](https://kni.me/w/c2_iSRBcc1v7b6pU)
 
 ---
 
-## 🔑 Key Insights  
+## 🧠 Machine Learning Models Used
 
-- 🚬 **Smoking** has the strongest predictive influence on medical costs  
-- 📈 **Age** and **BMI** significantly impact charges  
-- ⚡ Interaction effects (**BMI × Smoking**) amplify risk  
-- 📊 Regression model achieved an **R² of 0.751**  
-
----
-
-## 📷 Project Screenshot  
-
- 
- <img width="1737" height="660" alt="Screenshot 2025-08-25 120153" src="https://github.com/user-attachments/assets/04b8c416-1bd8-4151-8fad-06ae723268f4" />
-
+| Model | Description |
+|--------|--------------|
+| 🌲 **Random Forest (RF)** | Ensemble method reducing overfitting and variance. |
+| ⚙️ **Support Vector Machine (SVM)** | Works efficiently with high-dimensional data. |
+| 📊 **Naive Bayes (NB)** | Based on conditional probability; simple and fast. |
+| 🧩 **Logistic Regression (LR)** | Great for binary classification tasks. |
+| 🔗 **K-Nearest Neighbor (KNN)** | Distance-based classifier for comparison. |
+| 🧠 **MultiLayer Perceptron (MLP)** | Neural network model for non-linear decision boundaries. |
 
 ---
 
-<div align="center">  
-  ✨ *Developed with KNIME by Ashish Mishra* ✨  
-</div>  
+## 🧩 KNIME Workflow Overview
 
+Here’s a complete view of the KNIME workflow designed for **Credit Card Fraud Detection** 👇  
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f53b8199-5d77-4344-8f3f-2492034ee8c7"/>
+</div>
